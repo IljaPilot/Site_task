@@ -1,0 +1,157 @@
+
+
+
+#top-block {
+   position: fixed;
+   z-index: 3;
+   right: 10px;
+   top: 5px;
+   font-size: 13px;
+}
+
+#top-block a {
+   text-decoration: none;
+}
+
+table.tab1 {
+   border-collapse: separate;
+   border-spacing: 40px 0px;  
+}
+
+#background-flag {
+   position: fixed; right: 528px; top: -20px;
+   z-index: 2;
+}
+
+#white{
+   color: white;
+}
+
+#gigi-brooks-logo {
+   position: absolute; left: 20px; top: -10px;
+   z-index: -1;
+}
+
+#maine_menu { 
+   position: absolute; left: 25%; top: 50px;           
+   margin: 0px;
+   width: 75%;
+   font-size: 20px;
+   color: rgb(140, 140, 140);
+
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+
+   font-family: Courier;
+}
+
+table.tab2 {
+   border-collapse: separate;
+   border-spacing: 40px 20px;
+}
+
+#submenu {
+   position: absolute; left: 0px; top: 135px;           
+   margin: 0px;
+   width: 100%;
+   font-weight: bold;
+   font-size: 20px;
+   background-color: rgb(245, 245, 245);
+   color: rgb(100, 100, 100);
+
+   padding-top: 12px;
+   padding-right: 0px;
+   padding-bottom: 12px;
+   padding-left: 0px;
+
+   font-family: Courier;
+   }
+
+table.tab3 {
+   border-collapse: separate;
+   border-spacing: 0px 0px;   
+}
+
+#corner {
+   position:absolute;
+   top:277px;
+   left:42px;
+   background-color: rgb(92, 180, 165);
+   transform: rotate(-35deg);
+   padding-top: 18px;
+   padding-right: 40px;
+   padding-bottom: 20px;
+   padding-left: 2px;
+   z-index: -2:
+}
+
+
+#left-text {
+   position: absolute; left: 0px; top: 240px;
+   height: 400px;
+   margin: 15px 30px 0px 60px;
+
+   padding-top: 120px;
+   padding-right: 50px;
+   padding-bottom: 10px;
+   padding-left: 35px;
+
+   background-color: rgb(245, 245, 245);
+   }
+
+h1 {
+   position: absolute; left: 35px; top: 270px;
+
+   padding-top: 10px;
+   padding-right: 60px;
+   padding-bottom: 10px;
+   padding-left: 60px;
+
+   background-color: rgb(165, 213, 205);
+   color: rgb(255, 255, 255);
+   font-family: serif;  
+   font-size: 33px;
+   z-index: 2;
+}
+
+.curved-hz-1:before, .curved-hz-1:after {
+   content:"";
+   position:absolute;
+   z-index:-1;
+}
+
+.curved-hz-1:before {
+   top:50%;
+   bottom:4px;
+   left:15px;
+   right:15px;
+   -webkit-box-shadow: 0px 10px 15px 5px rgb(180, 180, 180);
+   -moz-box-shadow: 0px 10px 15px 5px rgb(180, 180, 180);
+   box-shadow: 0px 10px 15px 5px rgb(180, 180, 180);
+   -moz-border-radius:200px / 30px;
+   border-radius:200px / 30px;
+}  
+
+#picture-right {
+   position: absolute; left: 445px; top: 255px;
+}
+
+.curved-hz-2:before, .curved-hz-2:after {
+   content:"";
+   position:absolute;
+   z-index:-1;
+}
+
+.curved-hz-2:before {
+   top:50%;
+   bottom:9px;
+   left:15px;
+   right:15px;
+   -webkit-box-shadow: 0px 10px 15px 5px rgb(180, 180, 180);
+   -moz-box-shadow: 0px 10px 15px 5px rgb(180, 180, 180);
+   box-shadow: 0px 10px 15px 5px rgb(180, 180, 180);
+   -moz-border-radius:200px / 30px;
+   border-radius:200px / 30px;
+}  
